@@ -16,4 +16,14 @@
 .container h1 {
     font-size: 80px;
     font-weight: 600;
+    width: 500px; /* Adjust the width as needed */
+    white-space: nowrap; /* Prevents wrapping */
+    overflow: hidden; /* Hides any overflow */
+}
+.container .static-text {
+    display: inline-block; /* Ensures the static text doesn't affect the width of the h1 */
+    width: auto; /* Allows the static text to adjust to its content */
+}
+.container .auto-type {
+    color: yellow; /* Added color to match the initial CSS */
 }
