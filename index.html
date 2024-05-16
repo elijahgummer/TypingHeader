@@ -8,8 +8,16 @@
 </head>
 <body>
     <div class="container">
-        <h1>IM, Coding</h1>
+        <h1>IM, <span class="auto-type">Coding</span></h1>
     </div>
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed("auto-type", {
+            Strings: ["Coding", "Sleeping", "Eating"],
+            typeSpeed: 150,
+            backSpeed: 150,
+            loop: true
+        });
+    </script>
 </body>
 </html>
