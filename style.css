@@ -13,3 +13,7 @@
     align-items: center;
     justify-content: center;
 }
+.container h1 {
+    font-size: 80px;
+    font-weight: 600;
+}
